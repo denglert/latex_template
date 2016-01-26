@@ -1,0 +1,39 @@
+%\documentclass[12pt]{article}
+\documentclass[12pt]{report}
+
+\input{ltx/settings}
+\input{ltx/addons}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\linenumbers
+
+\onehalfspacing
+
+\input{src/front}
+
+\pagestyle{empty}
+\thispagestyle{empty}
+\tableofcontents
+\pagestyle{empty}
+\thispagestyle{empty}
+\thispagestyle{empty}
+
+%Feynman diagrams
+%\begin{fmffile}{feyn}
+
+% Sections
+\input{src/intro}
+\input{src/summary}
+
+\footnotesize
+\bibliographystyle{unsrt}
+\bibliography{references}
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%Feynman diagrams
+%\end{fmffile}
+
+\end{document}

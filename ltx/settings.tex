@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% --- Document settings --- %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\usepackage{siunitx}
+\usepackage{pstricks}
+\usepackage{color}
+\usepackage{hepnames}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{bm}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{multirow}
+\usepackage{cite}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%% Feynman diagram %%%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[final]{feynmp-auto}
+\DeclareGraphicsRule{*}{mps}{*}{}
+\makeatletter
+\def\endfmffile{%
+	\fmfcmd{\p@rcent\space the end.^^J%
+			end.^^J%
+			endinput;}%
+	\if@fmfio
+		\immediate\closeout\@outfmf
+	\fi
+	\ifnum\pdfshellescape=\@ne
+		\immediate\write18{mpost \thefmffile}%
+	\fi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Hyperreference
+\usepackage{hyperref}
+%\usepackage[all]{hypcap}
+\usepackage{doi}
+\usepackage{url}
+
+%%figures don't float over subsections
+\usepackage{flafter}
+\usepackage{placeins}
+
+\usepackage[width=6.2in,height=9.65in]{geometry}
+\captionsetup[figure]{labelfont=bf,textfont={}}
+
+% Fonts are nicer
+\usepackage{lmodern}
+% No indent
+%\usepackage[parfill]{parskip}
+
+
+%%% Double underline for matrix
+%\usepackage{ulem}
+
+\usepackage{tabularx}
+
+%%% Side by side figures
+ 
+%%% Pifont dingbats
+\usepackage{pifont}
