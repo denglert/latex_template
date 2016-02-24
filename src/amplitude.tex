@@ -1,0 +1,60 @@
+\section{Amplitude}
+
+\newcommand{\fgrwidth}{120}
+\newcommand{\fgrheight}{60}
+
+\begin{figure}[t!]
+\centering
+\begin{fmfgraph*}(\fgrwidth,\fgrheight)
+	\fmfleft{i1,i2}
+	\fmfright{o1,o2}
+	\fmflabel{\gam{k}{a}{\mu}}{i2}
+	\fmflabel{\uferm{p}{s}}{i1}
+	\fmflabel{\ubarferm{p'}{s'}}{o1}
+	\fmflabel{\gam{k'}{b*}{\nu}}{o2}
+	\fmflabel{($-ie\gamma^{\mu}$)}{v1}
+	\fmflabel{($-ie\gamma^{\nu}$)}{v2}
+	\fmf{fermion}{i1,v1,v2,o1}
+	\fmf{fermion,label=$\frac{i}{\slashed{p}+\slashed{k}-m_{e}}$,l.d=10}{v1,v2}
+	\fmf{photon}{i2,v1}
+	\fmf{photon}{v2,o2}
+\end{fmfgraph*}
+\hspace{3cm}
+\begin{fmfgraph*}(\fgrwidth,\fgrheight)
+	\fmfleft{i1,i2}
+	\fmfright{o1,o2}
+	\fmflabel{\gam{k}{a}{\mu}}{i2}
+	\fmflabel{\uferm{p}{s}}{i1}
+	\fmflabel{\ubarferm{p'}{s'}}{o1}
+	\fmflabel{\gam{k'}{b*}{\nu}}{o2}
+	\fmflabel{($-ie\gamma^{\nu}$)}{v1}
+	\fmflabel{($-ie\gamma^{\mu}$)}{v2}
+%	\fmf{fermion}{i1,v1,v2,o1}
+	\fmf{fermion}{i1,v1}
+	\fmf{fermion,label=$\frac{i}{\slashed{p}-\slashed{k'}-m_{e}}$,l.d=10}{v1,v2}
+	\fmf{fermion}{v2,o1}
+	\fmf{phantom}{i1,v1}
+	\fmf{phantom}{i1,v1}
+	\fmf{phantom}{i2,v1}
+	\fmf{phantom}{i2,v1}
+	\fmf{phantom}{v2,o1}
+	\fmf{phantom}{v2,o1}
+	\fmf{phantom}{v2,o2}
+	\fmf{phantom}{v2,o2}
+	\fmf{photon}{i2,v2}
+	\fmf{photon}{v1,o2}
+\end{fmfgraph*}
+\vspace{0.5cm}
+\caption{Diagrams for Compton scattering: s-channel (left) and t-channel (right).}
+\label{fig:feyn}
+\end{figure}
+
+
+\begin{equation}
+\begin{aligned}
+\label{eq:amplitude_mom}
+		  |\bar{\mathcal{M}}|^{2} =
+		  2 e^{4} \left [ \frac{pk'}{pk} + \frac{pk}{pk'} + 2m_{e}^{2} \left( \frac{1}{pk} - \frac{1}{pk'} \right) +
+	4m_{e}^{4}\left( \frac{1}{pk} - \frac{1}{pk'} \right)^{2} \right ]
+\end{aligned}
+\end{equation}

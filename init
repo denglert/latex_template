@@ -1,0 +1,3 @@
+#!/bin/sh
+TEXINPUTS_LIST=":./ltx/hepnames/:./ltx/hepparticles/:./ltx/subdepth/:./ltx/feynmp-auto/:./ltx/feynmf/:./ltx/ifxetex/:./ltx/pdftexcmds/:./ltx/doi/:"
+export TEXINPUTS=${TEXINPUTS_LIST}

@@ -1,0 +1,40 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.11.20)  24 FEB 2016 14:15
+entering extended mode
+ %&-line parsing enabled.
+**ifxetex.ins
+(./ifxetex.ins
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(./ifxetex.tex (/usr/share/texmf/tex/latex/filecontents/filecontents.sty
+Package: filecontents 2006/03/11 v1.1a Create an external file from within a La
+TeX document
+)
+
+LaTeX Warning: Writing file `./README.txt'.
+
+\openout15 = `README.txt'.
+
+
+
+LaTeX Warning: Writing file `./ifxetex.sty'.
+
+\openout15 = `ifxetex.sty'.
+
+
+ ) ) 
+Here is how much of TeX's memory you used:
+ 19 strings out of 256217
+ 422 string characters out of 1917094
+ 48804 words of memory out of 1500000
+ 3395 multiletter control sequences out of 10000+200000
+ 3640 words of font info for 14 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 13i,0n,10p,163b,314s stack positions out of 5000i,500n,6000p,200000b,15000s
+
+No pages of output.
